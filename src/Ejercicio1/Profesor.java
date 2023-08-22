@@ -50,13 +50,8 @@ public boolean equals(Object obj) {
 
 @Override
 public String toString() {
-<<<<<<< HEAD
 	return "Profesor: " + super.toString() + ", CARGO: " + cargo + ", "
 			+ "ANTIGUEDAD DEL DOCENTE: " + antiguedadDocente;
-=======
-	return "Profesor " + super.toString() + ", CARGO=" + cargo + ", "
-			+ "ANTIGUEDAD DEL DOCENTE=" + antiguedadDocente;
->>>>>>> ca2d647c5c3befcc1fdcc89971acb22867382ecd
 }
 public String getCargo() {
 	return cargo;
