@@ -3,6 +3,24 @@ package Ejercicio1;
 public class Profesor extends Empleado{
 	private String cargo;
 	private int antiguedadDocente;
+	
+	//constructores
+	public Profesor() 
+	{	
+		super();
+		cargo = "Sin cargo";
+		antiguedadDocente = 0;
+	}
+	
+	public Profesor(String nombre,int edad, String cargo, int antiguedadDocente)
+	{
+		super(nombre, edad);
+		this.cargo = cargo;
+		this.antiguedadDocente = antiguedadDocente;
+	}
+	
+	
+	
 @Override
 public int hashCode() {
 	final int prime = 31;
@@ -29,12 +47,11 @@ public boolean equals(Object obj) {
 		return false;
 	return true;
 }
+
 @Override
 public String toString() {
-	return "Profesor [cargo=" + cargo + ", antiguedadDocente=" + antiguedadDocente + ", getCargo()=" + getCargo()
-			+ ", getAntiguedadDocente()=" + getAntiguedadDocente() + ", getId()=" + getId() + ", getNombre()="
-			+ getNombre() + ", getEdad()=" + getEdad() + ", toString()=" + super.toString() + ", getClass()="
-			+ getClass() + ", hashCode()=" + hashCode() + "]";
+	return "Profesor: " + super.toString() + ", CARGO: " + cargo + ", "
+			+ "ANTIGUEDAD DEL DOCENTE: " + antiguedadDocente;
 }
 public String getCargo() {
 	return cargo;
