@@ -1,7 +1,6 @@
 package Ejercicio1;
 
 import java.util.Iterator;
-import java.util.ListIterator;
 import java.util.TreeSet;
 
 public class mainEjercicio1_b {
