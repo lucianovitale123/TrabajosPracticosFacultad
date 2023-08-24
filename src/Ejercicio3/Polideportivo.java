@@ -10,8 +10,8 @@ public class Polideportivo implements IinstalacionDeportiva, IEdificio {
 	//Constructors
 	public Polideportivo() {
 		super();
-		this.superficieEdificio = 500;
-		this.tipoDeInstalacion = 1 ;
+		this.superficieEdificio = -1;
+		this.tipoDeInstalacion = -1 ;
 		this.nombrePolideportivo = "Default";
 	}
 	
@@ -46,7 +46,7 @@ public class Polideportivo implements IinstalacionDeportiva, IEdificio {
 		
 		return this.superficieEdificio;
 	}
-
+	
 	@Override
 	public int getTipoDeInstalacion() {
 		return tipoDeInstalacion;
@@ -54,14 +54,6 @@ public class Polideportivo implements IinstalacionDeportiva, IEdificio {
 
 	@Override
 	public String toString() {
-		return "Polideportivo:" + nombrePolideportivo;
+		return "Polideportivo: " + nombrePolideportivo;
 	}
-	
-	
-	
-	
-
 }
-
-
-
