@@ -50,8 +50,8 @@ public class Oficina implements IEdificio, IinstalacionDeportiva{
 	//Metodos
 	@Override
 	public String toString() {
-		return "Oficina: nroOficinas=" + nroOficinas + ", superficieEdificio=" + superficieEdificio
-				+ ", tipoDeInstalacion=" + tipoDeInstalacion;
+		return "Oficina numero:" + nroOficinas + ", Superficie del edificio:" + superficieEdificio
+				+ ", Tipo de instalacion:" + tipoDeInstalacion;
 	}
 
 	@Override
