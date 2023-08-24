@@ -1,6 +1,7 @@
 package Ejercicio2;
 
 public class ProductoFresco extends Producto {
+	//Atributos
 	private String FechaDeEnvasado;
 	private String PaisDeOrigen;
 	
@@ -14,6 +15,7 @@ public class ProductoFresco extends Producto {
 		this.FechaDeEnvasado=Fecha;
 	}
 	
+	//Gets y sets
 	public String getFechaDeEnvasado() {
 		return FechaDeEnvasado;
 	}
@@ -27,6 +29,5 @@ public class ProductoFresco extends Producto {
 		PaisDeOrigen = paisDeOrigen;
 	}
 	
-	
-
+	//Métodos
 }

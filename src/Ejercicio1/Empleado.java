@@ -1,13 +1,13 @@
 package Ejercicio1;
 
 public class Empleado {
-	//atributos
+	//Atributos
 	private final int id;
 	private String nombre;
 	private int edad;
 	private static int cont=999;
 	
-	//constructores
+	//Constructores
 	public Empleado(){
 		cont++;
 		this.id = cont;
@@ -21,7 +21,7 @@ public class Empleado {
 		this.edad=edad;
 	}
 	
-	//gets y sets
+	//Gets y sets
 	public int getId() {
 		return id;
 	}
@@ -41,7 +41,7 @@ public class Empleado {
 		this.edad = edad;
 	}
 	
-	//metodos
+	//Métodos
 	public static int devuelveProximoID()
 	{
 		return cont+1;

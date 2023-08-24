@@ -1,10 +1,11 @@
 package Ejercicio1;
 
 public class Profesor extends Empleado implements Comparable<Profesor>{
+	//Atributos
 	private String cargo;
 	private int antiguedadDocente;
 	
-	//constructores
+	//Constructores
 	public Profesor() 
 	{	
 		super();
@@ -18,7 +19,8 @@ public class Profesor extends Empleado implements Comparable<Profesor>{
 		this.cargo = cargo;
 		this.antiguedadDocente = antiguedadDocente;
 	}
-		
+	
+	//Métodos
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -52,6 +54,8 @@ public class Profesor extends Empleado implements Comparable<Profesor>{
 		return "Profesor: " + super.toString() + ", CARGO: " + cargo + ", "
 				+ "ANTIGUEDAD DEL DOCENTE: " + antiguedadDocente;
 	}
+	
+	//Gets y sets
 	public String getCargo() {
 		return cargo;
 	}

@@ -28,5 +28,4 @@ public class mainEjercicio1_b {
 			System.out.println(profe.toString());
 		}
 	}
-
 }

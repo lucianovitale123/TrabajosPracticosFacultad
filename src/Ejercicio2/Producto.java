@@ -1,9 +1,9 @@
 package Ejercicio2;
 
 public class Producto {
+	//Atributos
 	private int NroLote;
 	private String FechaDeCaducidad;
-	
 	
 	//Constructores
 	public Producto() {
@@ -15,6 +15,7 @@ public class Producto {
 		this.FechaDeCaducidad=Fecha;
 	}
 	
+	//Gets y sets
 	public int getNroLote() {
 		return NroLote;
 	}
@@ -28,6 +29,5 @@ public class Producto {
 		FechaDeCaducidad = fechaDeCaducidad;
 	}
 	
-	
-
+	//Métodos
 }

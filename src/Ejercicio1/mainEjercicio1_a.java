@@ -29,7 +29,5 @@ public class mainEjercicio1_a {
 			ilp.remove();
 			System.out.println(profesor.toString());
 		}
-
 	}
-
 }
