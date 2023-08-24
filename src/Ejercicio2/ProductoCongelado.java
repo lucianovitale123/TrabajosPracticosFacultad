@@ -27,13 +27,14 @@ public class ProductoCongelado extends Producto{
 		this.tempCongelacion = tempCongelacion;
 	}
 
+
+	//M�todos
+	
 	@Override
 	
 	public String toString() {
 		return super.toString() + ", T° de Congelacion: " + tempCongelacion;
 	}
-	
-	//M�todos
 	
 	
 }
