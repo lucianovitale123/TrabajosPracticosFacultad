@@ -6,13 +6,16 @@ public class ProductoFresco extends Producto {
 	private String PaisDeOrigen;
 	
 	//Constructores
+	
 	public ProductoFresco() {
-		this.PaisDeOrigen="Argentina";
-		this.FechaDeEnvasado="01/01/2001";
+		super();
+		this.PaisDeOrigen= "Argentina";
+		this.FechaDeEnvasado= "01/01/2023";
 	}
-	public ProductoFresco(String Fecha, String pais) {
-		this.PaisDeOrigen=pais;
-		this.FechaDeEnvasado=Fecha;
+	public ProductoFresco(String fechaCaducidad, int lote, String pais, String fechaEnvasado) {
+		super(fechaCaducidad, lote);
+		this.PaisDeOrigen= pais;
+		this.FechaDeEnvasado= fechaEnvasado;
 	}
 	
 	//Gets y sets
@@ -29,5 +32,12 @@ public class ProductoFresco extends Producto {
 		PaisDeOrigen = paisDeOrigen;
 	}
 	
-	//Métodos
+	@Override
+	public String toString() {
+		return super.toString() + ", FechaDeEnvasado: " + FechaDeEnvasado + ", PaisDeOrigen: " + PaisDeOrigen;
+	}
+	
+	//Mï¿½todos
+	
+	
 }

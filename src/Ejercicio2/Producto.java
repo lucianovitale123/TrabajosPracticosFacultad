@@ -6,9 +6,10 @@ public class Producto {
 	private String FechaDeCaducidad;
 	
 	//Constructores
+	
 	public Producto() {
 		this.NroLote=999;
-		this.FechaDeCaducidad="01/01/2001";
+		this.FechaDeCaducidad= "01/01/2001";
 	}
 	public Producto(String Fecha, int lote) {
 		this.NroLote=lote;
@@ -29,5 +30,12 @@ public class Producto {
 		FechaDeCaducidad = fechaDeCaducidad;
 	}
 	
-	//Métodos
+	@Override
+	public String toString() {
+		return "Producto NroLote: " + NroLote + ", FechaDeCaducidad: " + FechaDeCaducidad;
+	}
+	
+	//Mï¿½todos
+	
+	
 }

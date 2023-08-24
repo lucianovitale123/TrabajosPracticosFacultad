@@ -7,6 +7,16 @@ public class ProductoCongelado extends Producto{
 	
 	//Constructores
 	
+	public ProductoCongelado() {
+		super();
+		this.tempCongelacion= -4;
+	}
+	
+	public ProductoCongelado (String FechaCaducidad, int lote, int tempCongelacion) {
+		super(FechaCaducidad, lote);
+		this.tempCongelacion = tempCongelacion;
+	}
+	
 	//Gets y sets
 	
 	public int getTempCongelacion() {
@@ -16,6 +26,14 @@ public class ProductoCongelado extends Producto{
 	public void setTempCongelacion(int tempCongelacion) {
 		this.tempCongelacion = tempCongelacion;
 	}
+
+	@Override
 	
-	//Métodos
+	public String toString() {
+		return super.toString() + ", TÂ° de Congelacion: " + tempCongelacion;
+	}
+	
+	//Mï¿½todos
+	
+	
 }
