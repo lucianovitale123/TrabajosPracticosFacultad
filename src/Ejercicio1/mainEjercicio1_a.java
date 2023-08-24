@@ -8,7 +8,7 @@ public class mainEjercicio1_a {
 		
 		Profesor p1 = new Profesor("Jorge", 37, "Profesor Adjunto", 4);
 		Profesor p2 = new Profesor("Tamara", 32, "Profesora Adjunta", 5);
-		Profesor p3 = new Profesor("Tomás", 41, "JTP", 2);
+		Profesor p3 = new Profesor("Tomas", 41, "JTP", 2);
 		Profesor p4 = new Profesor("Laura", 27, "Ayudante de primera", 3);
 		Profesor p5 = new Profesor("Claudio", 45, "Profesor Adjunto", 8);
 		
