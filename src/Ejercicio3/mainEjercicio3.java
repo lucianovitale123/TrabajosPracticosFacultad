@@ -18,6 +18,7 @@ public class mainEjercicio3 {
 		System.out.println("Lista de edificios");
 		
 		ListIterator<IEdificio> it = listaEdificios.listIterator();
+		
 		while(it.hasNext()) {
 			IEdificio edificio = it.next();
 			it.remove();

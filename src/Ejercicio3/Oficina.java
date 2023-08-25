@@ -38,7 +38,7 @@ public class Oficina implements IEdificio{
 	//Metodos
 	@Override
 	public String toString() {
-		return "Oficina numero:" + nroOficinas + ", Superficie del edificio:" + superficieEdificio;
+		return "Edificio Oficina - numero de oficinas: " + nroOficinas + ", Superficie del edificio: " + superficieEdificio;
 	}
 
 	@Override

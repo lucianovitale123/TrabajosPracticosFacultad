@@ -9,7 +9,7 @@ public class mainEjercicio2 {
 		//Casteos de las clases 
 		
 		Producto producto = new Producto();
-		ProductoCongelado pCongelado = new ProductoCongelado();
+		ProductoCongelado pCongelado = new ProductoCongelado("1/9/2023", 12, -4);
 		ProductoFresco pFresco = new ProductoFresco();
 		ProductoRefrigerado pRefrigerado = new ProductoRefrigerado();
 		
